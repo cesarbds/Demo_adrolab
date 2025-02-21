@@ -62,6 +62,7 @@ source install/setup.bash
 ros2 launch axis_camera axis_demo_launch.py 
 ```
 2. Terminal 2: Máquina de estados, leitura da câmera e movimentação:
+   
 **Método 1 (não sei se funciona)**
 ```bash
 # Entrar na pasta de axis_ws
@@ -72,7 +73,7 @@ source install/setup.bash
 
 ros2 run axis_camera camera_demo.py
 ```
-** Método 2 (Se método 1 não funcionar) SIM**
+** Método 2 (Se método 1 não funcionar) SIM **
 ```bash
 # Entrar na pasta de axis_ws
 cd axis_ws
