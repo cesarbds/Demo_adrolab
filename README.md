@@ -73,7 +73,7 @@ source install/setup.bash
 
 ros2 run axis_camera camera_demo.py
 ```
-** Método 2 (Se método 1 não funcionar) SIM **
+**Método 2 (Se método 1 não funcionar) SIM**
 ```bash
 # Entrar na pasta de axis_ws
 cd axis_ws
