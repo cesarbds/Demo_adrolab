@@ -1,5 +1,4 @@
 # Demo_adrolab
-Oi Naninha, EU resolvi fazer aqui pra ficar visualmente mais bonito!!!
 
 ## Descrição
 Minha parte engloba essencialmente o robô, sua movimentação e fala. Adicinalmente tem que rodar também a câmera, que vai dizer onde ta os ursinhos pra ti poder pegar com o Kinova.
