@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="marta_nav" exec="scan_pub" name="scan_pub" namespace="laser_p3dx"/>
+  <node pkg="marta_nav" exev="odom_tf_pub" name="odom_tf_pub" namespace="odom_p3dx"/>
+  
+</launch>

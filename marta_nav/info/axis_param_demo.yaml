@@ -1,0 +1,26 @@
+driver:
+ ros__parameters:
+  camera_name: "axis_lab"
+  hostname: '192.168.0.18:8080'
+  username: "root"
+  password: ""
+  use_encrypt_password: false
+  enable_theora: 0
+  enable_ptz: true
+  enable_ptz_teleop: default
+  enable_defog: 0
+  enable_ir: 0
+  enable_wiper: 0
+  width: 704
+  height: 480
+  pan: 0
+  zoom: 1
+  focus: 1
+  brightness: 6000
+  camera: 1
+  fps: 0
+  tf_prefix: '/demo'
+  frame_id: '/axis_camera'
+  camera_info_topic: /demo/camera_info
+  image_topic: /demo/image_raw
+  calib_file: 'caliblab.yaml'

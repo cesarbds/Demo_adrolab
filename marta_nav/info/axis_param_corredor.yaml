@@ -1,0 +1,27 @@
+driver:
+ ros__parameters:
+  camera_name: "axis_corredor"
+  hostname: '10.1.3.143:8080'
+  username: "root"
+  password: ""
+  use_encrypt_password: false
+  enable_theora: 0
+  enable_ptz: true
+  enable_ptz_teleop: default
+  enable_defog: 0
+  enable_ir: 0
+  enable_wiper: 0
+  width: 704
+  height: 480
+  camera: 1
+  fps: 0
+  pan: 162
+  tilt: 29
+  zoom: 1
+  focus: 1
+  brightness: 6000
+  tf_prefix: '/corredor'
+  frame_id: '/axis_camera'
+  camera_info_topic: /corredor/camera_info
+  image_topic: /corredor/image_raw
+  calib_file: 'calibcorredor.yaml'

@@ -1,0 +1,26 @@
+image_width: 704
+image_height: 480
+camera_name: axis_corredor
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [743.18127,   0.     , 355.19757,
+           0.     , 683.34959, 134.25237,
+           0.     ,   0.     ,   1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.320899, 0.190360, -0.007524, -0.014189, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [689.37439,   0.     , 345.77   ,   0.     ,
+           0.     , 633.19263, 125.36553,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]
